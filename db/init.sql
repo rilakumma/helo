@@ -1,7 +1,7 @@
 create table users (
     id serial primary key,
-    username varchar(20),
-    password varchar(20),
+    auth0_id text,
+    name text,
     picture text
 );
 create table posts(
